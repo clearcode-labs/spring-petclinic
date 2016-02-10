@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.boeing.toolbox.cucumber.tests.GreetingTest" time="0.018" tests="4" errors="2" skipped="1" failures="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Build-DemoCukeClient"/>
+    <property name="PWD" value="/"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH" value="/usr/java/jdk1.8.0_60/bin:/sbin:/usr/sbin:/bin:/usr/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="f2328726e387edb9"/>
+    <property name="POM_ARTIFACTID" value="demoCukeClient"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_60/jre/lib/resources.jar:/usr/java/jdk1.8.0_60/jre/lib/rt.jar:/usr/java/jdk1.8.0_60/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_60/jre/lib/jsse.jar:/usr/java/jdk1.8.0_60/jre/lib/jce.jar:/usr/java/jdk1.8.0_60/jre/lib/charsets.jar:/usr/java/jdk1.8.0_60/jre/lib/jfr.jar:/usr/java/jdk1.8.0_60/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="3"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="DemoCukeClient"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="user.name" value="svc-jenkins-tbng"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#6"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_60/jre/lib/amd64"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="e1767d92078180227852209859c041520df3bcbe"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm"/>
+    <property name="NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_60/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="6"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/usr/java/jdk1.8.0_60/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="2.6.32-573.12.1.el6.x86_64"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="a73ca1901a71bd71d89f8cb982a0c5c9d1de853f"/>
+    <property name="SHLVL" value="2"/>
+    <property name="_" value="/etc/alternatives/java"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="JAVA_HOME" value="/usr/java/jdk1.8.0_60"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="LOGNAME" value="svc-jenkins-tbng"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/var/lib/jenkins"/>
+    <property name="POM_GROUPID" value="com.boeing.toolbox"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="BUILD_TAG" value="jenkins-Build-DemoCukeClient-6"/>
+    <property name="JENKINS_SERVER_COOKIE" value="f2328726e387edb9"/>
+    <property name="HUDSON_URL" value="https://jenkinstbng.dsi.boeing.com/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven /var/cache/jenkins/war/WEB-INF/lib/remoting-2.52.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 46833"/>
+    <property name="java.class.path" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.5.jar:/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/boot/plexus-classworlds-2.5.2.jar:/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/conf/logging"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/usr/java/jdk1.8.0_60/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/bin"/>
+    <property name="BUILD_URL" value="https://jenkinstbng.dsi.boeing.com/job/Build-DemoCukeClient/6/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_60/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/ccs_data/jag/jenkins-tbng/jobs/Build-DemoCukeClient/workspace/DemoCukeClient"/>
+    <property name="JOB_URL" value="https://jenkinstbng.dsi.boeing.com/job/Build-DemoCukeClient/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="6"/>
+    <property name="JENKINS_URL" value="https://jenkinstbng.dsi.boeing.com/"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="GIT_COMMIT" value="7f453f023776a43bdadcf691247b2655e5e3cd6f"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="/var/lib/jenkins/jobs/Build-DemoCukeClient/workspace"/>
+    <property name="maven3.interceptor.common" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar"/>
+    <property name="GEM_PATH" value="file:/var/lib/jenkins/plugins/ruby-runtime/WEB-INF/lib/stapler-jruby-1.209.jar!/gem"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="svc-jenkins-tbng"/>
+    <property name="GIT_URL" value="git@gitlab.dsi.boeing.com:tbng/example_projects.git"/>
+    <property name="XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt"/>
+  </properties>
+  <testcase name="Given I have a greeting service" classname="Scenario: Get a restful greeting" time="0.002"/>
+  <testcase name="When I make an rest call to get a greeting" classname="Scenario: Get a restful greeting" time="0.008">
+    <error message="404 Not Found" type="org.springframework.web.client.HttpClientErrorException">org.springframework.web.client.HttpClientErrorException: 404 Not Found
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:91)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:641)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:597)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:557)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:289)
+	at com.boeing.toolbox.cucumber.steps.GreetingStep.makeServiceCall(GreetingStep.java:32)
+	at ✽.When I make an rest call to get a greeting(com/boeing/toolbox/cucumber/tests/greetingService.feature:7)
+</error>
+    <system-out><![CDATA[15:57:46.566 [main] DEBUG o.s.web.client.RestTemplate - Created GET request for "http://10.5.1.52:8080/demoService/getGreeting1"
+15:57:46.570 [main] DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [text/plain, application/json, application/*+json, */*]
+15:57:46.694 [main] DEBUG o.s.web.client.RestTemplate - GET request for "http://10.5.1.52:8080/demoService/getGreeting1" resulted in 404 (Not Found); invoking error handler
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Get a restful greeting" classname="Scenario: Get a restful greeting" time="0.008">
+    <error message="404 Not Found" type="org.springframework.web.client.HttpClientErrorException">org.springframework.web.client.HttpClientErrorException: 404 Not Found
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:91)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:641)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:597)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:557)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:289)
+	at com.boeing.toolbox.cucumber.steps.GreetingStep.makeServiceCall(GreetingStep.java:32)
+	at ✽.When I make an rest call to get a greeting(com/boeing/toolbox/cucumber/tests/greetingService.feature:7)
+</error>
+  </testcase>
+  <testcase name="Then I receive a greeting reply in json format" classname="Scenario: Get a restful greeting" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
